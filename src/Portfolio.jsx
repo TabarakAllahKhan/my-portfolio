@@ -15,7 +15,9 @@ import htmlIcon from './assets/icons/icons8-html5-48.png';
 import tailwindIcon from './assets/icons/icons8-tailwindcss-48.png';
 import pandasIcon from './assets/icons/icons8-pandas-48.png';
 import javaIcon from './assets/icons/icons8-java-48.png';
-
+import gitIcon from './assets/icons/icons8-git-48.png';
+import gitHubicon from './assets/icons/icons8-github-48.png';
+import NumpyIcon from './assets/icons/icons8-numpy-48.png';
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -101,6 +103,10 @@ export default function Portfolio() {
                 { name: 'Tailwind Css', icon: tailwindIcon },
                 { name: 'Pandas', icon: pandasIcon },
                 { name: 'Java', icon: javaIcon },
+                { name: 'Git', icon: gitIcon },
+                { name: 'GitHub', icon: gitHubicon },
+                { name: 'NumPy', icon: NumpyIcon }
+                
         
 
           ].map(skill => (
