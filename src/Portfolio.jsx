@@ -3,6 +3,7 @@ import { Sun, Moon } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './index.css';
 import CalendlyWidget from './CalendlyWidget';
+import expressIcon from './assets/icons/icons8-express-js-50.png';
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -76,7 +77,7 @@ export default function Portfolio() {
         <h3 className="text-2xl font-semibold mb-6">Skills</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
           {[
-                { name: 'express js', icon: '../src/assets/icons/icons8-express-js-50.png' },
+                { name: 'express js', icon: expressIcon },
                 { name: 'Python', icon: '../src/assets/icons/icons8-python-48.png' },
                 { name: 'JavaScript', icon: '../src/assets/icons/icons8-javascript-48.png' },
                 { name: 'React', icon: '../src/assets/icons/icons8-react-native-48.png' },
