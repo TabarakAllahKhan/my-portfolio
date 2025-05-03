@@ -38,7 +38,6 @@ const CalendlyWidget = () => {
       >
         <div className="flex flex-col items-center leading-tight">
           <span>Book a Meeting</span>
-          <span className="text-xs">powered by Calendly</span>
         </div>
       </button>
     </div>
