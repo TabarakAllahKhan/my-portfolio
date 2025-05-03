@@ -4,6 +4,18 @@ import { motion } from 'framer-motion';
 import './index.css';
 import CalendlyWidget from './CalendlyWidget';
 import expressIcon from './assets/icons/icons8-express-js-50.png';
+import pythonIcon from './assets/icons/icons8-python-48.png';
+import javascriptIcon from './assets/icons/icons8-javascript-48.png';
+import reactIcon from './assets/icons/icons8-react-native-48.png';
+import nodeIcon from './assets/icons/icons8-node-js-48.png';
+import mongodbIcon from './assets/icons/icons8-mongodb-48.png';
+import mysqlIcon from './assets/icons/icons8-mysql-48.png';
+import cIcon from './assets/icons/icons8-c-48.png';
+import htmlIcon from './assets/icons/icons8-html5-48.png';
+import tailwindIcon from './assets/icons/icons8-tailwindcss-48.png';
+import pandasIcon from './assets/icons/icons8-pandas-48.png';
+import javaIcon from './assets/icons/icons8-java-48.png';
+
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -78,17 +90,17 @@ export default function Portfolio() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
           {[
                 { name: 'express js', icon: expressIcon },
-                { name: 'Python', icon: '../src/assets/icons/icons8-python-48.png' },
-                { name: 'JavaScript', icon: '../src/assets/icons/icons8-javascript-48.png' },
-                { name: 'React', icon: '../src/assets/icons/icons8-react-native-48.png' },
-                { name: 'Node.js', icon: '../src/assets/icons/icons8-node-js-48.png' },
-                { name: 'MongoDB', icon: '../src/assets/icons/icons8-mongodb-48.png' },
-                { name: 'MySQL', icon: '../src/assets/icons/icons8-mysql-48.png' },
-                { name: 'C++', icon: '../src/assets/icons/icons8-c-48.png' },
-                { name: 'HTML', icon: '../src/assets/icons/icons8-html5-48.png' },
-                { name: 'Tailwind Css', icon: '../src/assets/icons/icons8-tailwindcss-48.png' },
-                { name: 'Pandas', icon: '../src/assets/icons/icons8-pandas-48.png' },
-                { name: 'Java', icon: '../src/assets/icons/icons8-java-48.png' },
+                { name: 'Python', icon: pythonIcon },
+                { name: 'JavaScript', icon: javascriptIcon },
+                { name: 'React', icon: reactIcon },
+                { name: 'Node.js', icon: nodeIcon },
+                { name: 'MongoDB', icon: mongodbIcon },
+                { name: 'MySQL', icon: mysqlIcon },
+                { name: 'C++', icon: cIcon },
+                { name: 'HTML', icon: htmlIcon },
+                { name: 'Tailwind Css', icon: tailwindIcon },
+                { name: 'Pandas', icon: pandasIcon },
+                { name: 'Java', icon: javaIcon },
         
 
           ].map(skill => (
