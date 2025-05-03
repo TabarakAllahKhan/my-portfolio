@@ -16,7 +16,7 @@ import tailwindIcon from './assets/icons/icons8-tailwindcss-48.png';
 import pandasIcon from './assets/icons/icons8-pandas-48.png';
 import javaIcon from './assets/icons/icons8-java-48.png';
 import gitIcon from './assets/icons/icons8-git-48.png';
-import gitHubicon from './assets/icons/icons8-github-48.png';
+import gitHubicon from './assets/icons/icons8-github-logo-24.png';
 import NumpyIcon from './assets/icons/icons8-numpy-48.png';
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
