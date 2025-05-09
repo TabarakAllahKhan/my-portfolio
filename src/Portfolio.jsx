@@ -50,7 +50,7 @@ export default function Portfolio() {
       description: 'A Laravel App where student can disscuss their ideas related to any topic like programming languages or any issue related to them.',
       tech: ['Laravel', 'Bootstrap'],
       github: 'https://github.com/TabarakAllahKhan/Laravel-Forum',
-      demo: 'https://youtu.be/NnPM62yeRx0?si=NOIm-2hsi0tVf_N-',
+      demo: 'https://github.com/TabarakAllahKhan/Copyforum',
     },
     {
       title: 'Netflix Clone',
