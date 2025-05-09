@@ -57,7 +57,13 @@ export default function Portfolio() {
       description: 'A Netflix clone built using Tailwind CSS.',
       tech: ['HTML','Tailwind CSS'],
       github:'https://github.com/TabarakAllahKhan/netflixclone_Tailwind'
-    }
+    },
+    {
+      title: 'Personalize Ai DietReccomendation',
+      description:'A web app that provides personalized diet recommendations based on user input like his healthprefences , Diet Ristrictions, And any Disease if he has.',
+      tech: ['Flask', 'Python', 'HTML', 'CSS'],
+      github: 'https://github.com/TabarakAllahKhan/Ai_Personalize_DietPlanner'
+    },
   ];
 
   return (
