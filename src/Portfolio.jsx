@@ -64,6 +64,12 @@ export default function Portfolio() {
       tech: ['Flask', 'Python', 'HTML', 'CSS'],
       github: 'https://github.com/TabarakAllahKhan/Ai_Personalize_DietPlanner'
     },
+    {
+      title:'Google Play Store EDA',
+      description:'Conducted end-to-end exploratory data analysis on a large-scale Google Play Store dataset to uncover patterns in app categories, user ratings, pricing, and installs. Applied data cleaning, feature engineering, and visualization techniques using Pandas, Seaborn, Plotly, and Matplotlib. Built and evaluated regression and classification models with Scikit-learn, achieving up to 97% accuracy. Implemented Git LFS to manage large Jupyter notebooks and maintained clean, modular code for reproducibility.',
+      tech: ['Python','Data Visualization','Data Analysis','ML','Pandas'],
+      github:'https://github.com/TabarakAllahKhan/Google_Playstore_Eda'
+    }
   ];
 
   return (
