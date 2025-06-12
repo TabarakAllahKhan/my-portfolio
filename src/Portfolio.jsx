@@ -66,7 +66,7 @@ export default function Portfolio() {
     },
     {
       title:'Google Play Store EDA',
-      description:'Conducted end-to-end exploratory data analysis on a large-scale Google Play Store dataset to uncover patterns in app categories, user ratings, pricing, and installs. Applied data cleaning, feature engineering, and visualization techniques using Pandas, Seaborn, Plotly, and Matplotlib. Built and evaluated regression and classification models with Scikit-learn, achieving up to 97% accuracy. Implemented Git LFS to manage large Jupyter notebooks and maintained clean, modular code for reproducibility.',
+      description:'Performed exploratory data analysis on Google Play Store data to uncover key trends.Used Pandas, Plotly, and Seaborn for cleaning and visualization.Built classification and regression models with Scikit-learn (up to 97% accuracy).Handled large files using Git LFS and maintained a clean, reproducible workflow.',
       tech: ['Python','Data Visualization','Data Analysis','ML','Pandas'],
       github:'https://github.com/TabarakAllahKhan/Google_Playstore_Eda'
     }
